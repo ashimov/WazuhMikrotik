@@ -32,7 +32,6 @@ https://wazuh.com/blog/how-to-configure-rsyslog-client-to-send-events-to-wazuh/
 - Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/angolo40/WazuhMikrotik).
 ## Show your support
 
-- Give a ⭐️ if this project helped you!
-- BTC: bc1qga68pwf49sfhdd9nj96m8e2s65ypjegtx8lafj
-- BNB: 0x720b2b3e4436ec7064d54598BAd113e5293fF691
-***
+Give a ⭐️ if this project helped you!
+- **XMR**: `87LLkcvwm7JUZAVjusKsnwNRPfhegxe73X7X3mWXDPMnTBCb6JDFnspbN8qdKZA6StHXqnJxMp3VgRK7DcS2sgnW3wH7Xhw`
+
