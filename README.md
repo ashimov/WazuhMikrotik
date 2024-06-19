@@ -66,8 +66,7 @@ Make sure to replace `YOUR_WAZUH_SERVER_IP` with the IP address of your Wazuh se
     /import script.rsc
     ```
 
-**Note:** It is crucial to assign a unique comment to each Wireguard peer configured on your Mikrotik server.
-This comment acts as an identifier in the monitoring script and ensures accurate tracking of each peer's activity.
+ℹ️ **Note:** It is crucial to assign a unique comment to each Wireguard peer configured on your Mikrotik server. This comment acts as an identifier in the monitoring script and ensures accurate tracking of each peer's activity.
 
 ## Author
 
