@@ -66,7 +66,8 @@ Make sure to replace `YOUR_WAZUH_SERVER_IP` with the IP address of your Wazuh se
     /import script.rsc
     ```
 
-This script will log the connection status of Wireguard peers every 30 seconds, sending this information to the Wazuh Syslog server if properly configured.
+**Note:** It is crucial to assign a unique comment to each Wireguard peer configured on your Mikrotik server.
+This comment acts as an identifier in the monitoring script and ensures accurate tracking of each peer's activity.
 
 ## Author
 
