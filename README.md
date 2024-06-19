@@ -18,7 +18,7 @@ Follow the guide at [Wazuh Blog](https://wazuh.com/blog/how-to-configure-rsyslog
     ```sh
     cp /path/to/1001-mikrotik_decoders.xml /var/ossec/etc/decoders/1001-mikrotik_decoders.xml
     ```
-    If you are using Docker, run:
+    or if you are using Docker, run:
     ```sh
     docker cp /path/to/1001-mikrotik_decoders.xml single-node-wazuh.manager-1:/var/ossec/etc/decoders/1001-mikrotik_decoders.xml
     ```
@@ -27,18 +27,18 @@ Follow the guide at [Wazuh Blog](https://wazuh.com/blog/how-to-configure-rsyslog
     ```sh
     cp /path/to/local_rules.xml /var/ossec/etc/rules/local_rules.xml
     ```
-    If you are using Docker, run:
+    or if you are using Docker, run:
     ```sh
     docker cp /path/to/local_rules.xml single-node-wazuh.manager-1:/var/ossec/etc/rules/local_rules.xml
     ```
 
 ### Step 3: Restart Wazuh
 
-Restart the Wazuh manager to apply the new configurations:
+1. Restart the Wazuh manager to apply the new configurations:
     ```sh
-    systemctl restart wazuh-manager
+        systemctl restart wazuh-manager
     ```
-If you are using Docker, run:
+    or if you are using Docker, run:
     ```sh
     docker restart single-node-wazuh.manager-1
     ```
