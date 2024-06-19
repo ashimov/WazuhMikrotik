@@ -1,12 +1,3 @@
-# Configure persistent Log
-/system logging action
-set 3 remote=xxx.xxx.xxx.xxx syslog-facility=syslog
-
-/system logging
-add action=remote disabled=no topics=account
-add action=remote disabled=no topics=info
-
-
 # Wireguard Online Status
 /system script
 add dont-require-permissions=no name=WGPeerStatus owner=admin policy=\
@@ -66,6 +57,5 @@ add dont-require-permissions=no name=WGPeerStatus owner=admin policy=\
     \n:set \$OnlinePeerList \$OnlinePeerListTmp"
 
 /system scheduler
-add interval=15s name=WGPeerCheck on-event="/system script run WGPeerStatus;" \
-    policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
-    start-date=2017-06-13 start-time=00:00:00
+add interval=30s name=WGPeerCheck on-event="/system script run WGPeerStatus;" \
+    policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon
