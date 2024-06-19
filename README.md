@@ -36,7 +36,7 @@ Follow the guide at [Wazuh Blog](https://wazuh.com/blog/how-to-configure-rsyslog
 
 1. Restart the Wazuh manager to apply the new configurations:
     ```sh
-        systemctl restart wazuh-manager
+    systemctl restart wazuh-manager
     ```
     or if you are using Docker, run:
     ```sh
