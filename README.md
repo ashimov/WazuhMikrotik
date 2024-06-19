@@ -52,7 +52,7 @@ Follow the guide at [Wazuh Blog](https://wazuh.com/blog/how-to-configure-rsyslog
 
 2. Add a logging rule to send all logs to the remote server:
     ```sh
-    /system logging add action=remote topics=info
+    /system logging add action=remote topics=system
     ```
 
 Make sure to replace `YOUR_WAZUH_SERVER_IP` with the IP address of your Wazuh server.
