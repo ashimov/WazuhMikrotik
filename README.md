@@ -3,8 +3,8 @@
 This repository provides Wazuh decoders for Mikrotik and a script for monitoring Wireguard peers' login/logout activities.
 
 **Tested on:**
-- RouterOS 7.12
-- Wazuh 4.7.1
+- RouterOS 7.15.1
+- Wazuh 4.8.0
 
 ## 🚀 Setup Instructions
 
@@ -38,7 +38,7 @@ Restart the Wazuh manager to apply the new configurations:
     ```sh
     systemctl restart wazuh-manager
     ```
-    If you are using Docker, run:
+If you are using Docker, run:
     ```sh
     docker restart single-node-wazuh.manager-1
     ```
